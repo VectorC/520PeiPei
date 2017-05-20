@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Yun Wang's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="./stylesheets/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="./javascripts/jquery.min.js"><\/script>')</script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  <script src="./javascripts/main.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://vectorc.github.io/Mr-W.Portfolio/"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Yun Wang</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> List <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="./pages/fw.html">Flappy Witch</a></li>
+            <li><a href="./pages/ess.html">Elsword Skill Simulator</a></li>
+            <li><a href="./pages/koc.html">King of Cubes</a></li>
+            <li><a href="./pages/php.html">PHP User System</a></li>
+            <li><a href="./pages/bb.html">Bouncing Box</a></li>
+          </ul>
+        </li>
+        <li><a href="./pages/contact.html"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+  <div class="container-fluid about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-7 col-sm-6 col-xs-4 col-xs-offset-1">
+          <canvas id="myChart" width="250" height="250"></canvas>
+        </div>
+        <div class="about-text col-lg-4 col-md-4 col-sm-5 col-xs-12">
+        <h3>A little about me</h3>
+        <h4>Welcome to my portfolio page, what you will find here is a collection of my works.</h4>
+        <p>Hi, I grew up in a multicultural enviroment and I like to code in multi-platform. Most of these projects I created was for both personal interests and learning purpose, I believe they well reflect my abilities in the programming world. Enjoy ~</p>
+          <p class="pull-right">- Yun Wang</p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container gallery">
+    <div class="row">
+    <div class="col-lg-12">
+      <h3 class="gallery-title"><span class="glyphicon glyphicon-bookmark custom-glyphicon" aria-hidden="true"></span> Gallery</h3>
+    </div>
+    <div class="col-lg-6 col-md-6">
+      <a href="./pages/fw.html" class="thumbnail"><div class='left-corner'></div><div class='left-corner-small'></div>
+      <div class="thumbnail-overlay">
+        <h3 class="title">Flappy Witch</h3>
+        <span class="glyphicon glyphicon-tag" aria-hidden="true">Objective-C, iOS, Xcode</span>
+        <span class="text1">Learn more</span>
+        </div>
+      <img src="images/project_flappy.jpg">
+      </a>
+    </div>
+    <div class="col-lg-6 col-md-6">
+      <a href="./pages/ess.html" class="thumbnail"><div class='left-corner'></div><div class='left-corner-small'></div>
+      <div class="thumbnail-overlay">
+        <h3 class="title">Elsword Skill Simulator</h3>
+        <span class="glyphicon glyphicon-tag" aria-hidden="true">Bootstrap, jQuery</span>
+        <span class="text1">Learn more</span>
+        </div>
+      <img src="images/project_els.jpg">
+      </a>
+    </div>
+    <div class="col-lg-6 col-md-6">
+      <a href="./pages/koc.html" class="thumbnail"><div class='left-corner'></div><div class='left-corner-small'></div>
+      <div class="thumbnail-overlay">
+        <h3 class="title">King of Cubes</h3>
+        <span class="glyphicon glyphicon-tag" aria-hidden="true">Unity, JavaScript</span>
+        <span class="text1">Learn more</span>
+        </div>
+      <img src="images/project_koc.jpg">
+      </a>
+    </div>
+    <div class="col-lg-6 col-md-6">
+      <a href="./pages/php.html" class="thumbnail"><div class='left-corner'></div><div class='left-corner-small'></div>
+      <div class="thumbnail-overlay">
+        <h3 class="title">PHP User System</h3>
+        <span class="glyphicon glyphicon-tag" aria-hidden="true">PHP, AJAX</span>
+        <span class="text1">Learn more</span>
+        </div>
+      <img src="images/project_php.jpg">
+      </a>
+    </div>
+    <div class="col-lg-6 col-md-6">
+      <a href="./pages/bb.html" class="thumbnail"><div class='left-corner'></div><div class='left-corner-small'></div>
+      <div class="thumbnail-overlay">
+        <h3 class="title">Bouncing Box</h3>
+        <span class="glyphicon glyphicon-tag" aria-hidden="true">HTML5, JavaScript</span>
+        <span class="text1">Learn more</span>
+        </div>
+      <img src="./images/project_bb.jpg">
+      </a>
+    </div>
+    <div class="col-lg-6 col-md-6">
+      <a href="#" class="thumbnail"><div class='left-corner'></div><div class='left-corner-small'></div>
+      <div class="thumbnail-overlay">
+        <h3 class="title"></h3>
+        <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+        <span class="text1"></span>
+        </div>
+      <img src="./images/soon.jpg">
+      </a>
+    </div>
+  </div>
+  </div>
+
+  <div class="footer container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="footer-text">Copyright © Yun Wang 2015</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
